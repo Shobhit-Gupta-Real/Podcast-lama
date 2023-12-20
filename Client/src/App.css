@@ -1,0 +1,101 @@
+/* Logo */
+.logo{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 1.4rem;
+  left: 3rem;
+  width: 3.2rem;
+  gap: 0.3rem;
+}
+.logo h1{
+color: #7E22CE;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2.1rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: auto 0;
+}
+
+/* Navbar */
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  margin: 0 11rem;
+  margin-top: 5.8rem;
+  justify-content: space-between;
+}
+.home button{
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.2rem 1.2rem;
+  color: #3C3C3C;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 1.5rem;
+  border: 0.75px solid #999;
+  background: #FFF;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06), 0.75px 1.501px 3.752px 0px rgba(0, 0, 0, 0.06), 3.001px 6.003px 6.753px 0px rgba(0, 0, 0, 0.05), 6.753px 13.506px 9.004px 0px rgba(0, 0, 0, 0.03), 12.005px 24.01px 10.504px 0px rgba(0, 0, 0, 0.01), 18.758px 36.766px 12.005px 0px rgba(0, 0, 0, 0.00);
+}
+.navigate{
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* FrontPage */
+
+.frontpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0.4rem 14rem;
+}
+.frontpage h2{
+color: #7E22CE;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.frontpage img{
+width: 440.03px;
+Height: 260.67px;
+}
+.frontpage p{
+color: #838383;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.6rem;
+font-style: normal;
+line-height: normal;
+}
+.frontpage button{
+  display: flex;
+  gap: 1rem;
+  color: #F8F8F8;
+  font-family: Roboto;
+font-size: 1.7rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 0.80563rem;
+background: #211935;
+width: 25rem;
+height: 5rem;
+flex-shrink: 0;
+padding: 0.9rem 3rem;
+}
+.frontpage button img{
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.frontpage button span{
+  margin: auto;
+}
